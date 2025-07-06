@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pengiriman Barang</title>
+    <link rel="stylesheet" href="stayles.css">
+</head>
+
+<body>
+    <center>
+        <h1>SELAMAT DATANG DI WEBSITE PENGIRIMAN BARANG AMEL</h1>
+    </center>
+
+    </header>
+    <main>
+        <section class="form-section">
+            <center><img src="iconPengiriman.png" alt="Gambar Pengiriman Barang"></center>
+            <center>
+                <h2>FORM PENGIRIMAN BARANG</h2>
+            </center>
+            <form action="pengiriman.php" id="PENGIRIMAN-form" method="get">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+
+                <label for="distance">Jarak Alamat Yang Dituju:</label>
+                <input type="number" id="jarak" name="jarak" required>
+
+                <label for="pilihan">Pilih Ekspedisi Pengiriman:</label>
+                <select id="pilihan" name="pilihan" required>
+                <option value="Kurir Cepat">Kurir Cepat </option>
+                <option value="Kurir Reguler">Kurir Reguler </option>
+                <option value="Kurir Ekonomi">Kurir Ekonomi </option>
+                <option value="Kurir Express">Kurir Express </option>
+                <option value="Kurir Same Day">Kurir Same Day </option>
+                <option value="Kurir Cepat">Kurir J&T </option>
+                <option value="Kurir Reguler">Kurir JNE </option>
+                <option value="Kurir Ekonomi">Kurir SiCepat </option>
+                <option value="Kurir Express">Kurir Cargo </option>
+                <option value="Kurir Same Day">Kurir ShoppeXpress </option>
+                <option value="Kurir Same Day">Kurir Pos Indonesia </option>
+                <option value="Kurir Same Day">Kurir Hemat </option>
+                <option value="Kurir Same Day">Kurir Standar Exspress </option>
+
+                </select>
+        
+                <button type="submit">Kirim</button>
+                <p id="indek"></p>
+            </form>
+        </section>
+    </main>
+
+    <script src="inputan.js"></script>
+    <script src="indek.txt"></script>
+</body>
+
+</html>

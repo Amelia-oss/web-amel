@@ -1,0 +1,345 @@
+/* Mengatur font, margin, padding, dan box-sizing untuk seluruh elemen body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mengatur gaya untuk elemen header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya untuk gambar di dalam header */
+header img {
+  max-width: 150px;
+}
+
+/* Mengatur gaya untuk elemen nav (navigasi) */
+nav {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya untuk daftar (ul) di dalam nav */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Mengatur gaya untuk elemen li (list item) di dalam ul */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* Mengatur gaya untuk link (a) di dalam li */
+nav ul li a {
+  text-decoration: none;
+  color: #c91616;
+  font-weight: bold;
+}
+
+/* Mengatur gaya untuk elemen div dengan kelas main-banner */
+.main-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Mengatur gaya untuk elemen div di dalam main-banner */
+.main-banner .content {
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Mengatur gaya untuk elemen h1 di dalam main-banner */
+.main-banner h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Mengatur gaya untuk paragraf di dalam main-banner */
+.main-banner p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Mengatur gaya untuk link di dalam main-banner */
+.main-banner a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas contact-us */
+.contact-us {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengatur ulang gaya untuk elemen body */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('iconPengiriman.png');
+  margin: 0;
+  padding: 0;
+  background-color: #14da74;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas pengiriman */
+.pengiriman {
+  background-color: #6bd6bb;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mengatur gaya untuk link di dalam logo */
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas menu */
+.menu {
+  float: right;
+}
+
+/* Mengatur gaya untuk daftar (ul) di dalam menu */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mengatur gaya untuk elemen li (list item) di dalam menu */
+.menu li {
+  margin-right: 20px;
+}
+
+/* Mengatur gaya untuk link di dalam menu */
+.menu a {
+  color: #080808;
+  text-decoration: none;
+}
+
+/* Mengatur gaya hover untuk link di dalam menu */
+.menu a:hover {
+  color: #ccc;
+}
+
+/* Mengubah arah elemen dalam menu menjadi kolom */
+.menu {
+  flex-direction: column;
+}
+
+/* Mengatur margin untuk elemen li di dalam menu menjadi 0 */
+.menu li {
+  margin-right: 0;
+}
+
+/* Mengatur padding dan border untuk link di dalam menu */
+.menu a {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+/* Mengatur ulang gaya untuk elemen body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Mengatur gaya untuk elemen header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya untuk gambar di dalam header dengan kelas logo */
+header .logo img {
+  height: 50px;
+}
+
+/* Mengatur gaya untuk daftar (ul) di dalam nav di dalam header */
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mengatur gaya untuk elemen li (list item) di dalam ul di dalam header */
+header nav ul li {
+  margin: 0 10px;
+}
+
+/* Mengatur gaya untuk link di dalam ul di dalam header */
+header nav ul li a {
+  text-decoration: none;
+  color: #d12727;
+}
+
+/* Mengatur gaya untuk kontainer tombol di dalam header */
+.header .button-container {
+  margin-left: auto;
+}
+
+/* Mengatur gaya untuk tombol dengan kelas sicepat-business */
+header .button-container .sicepat-business {
+  background-color: #f90;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Mengatur gaya hover untuk tombol dengan kelas sicepat-business */
+header .button-container .sicepat-business:hover {
+  background-color: #e80;
+}
+
+/* Mengatur gaya untuk elemen main */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Mengatur gaya untuk elemen h1 di dalam hero */
+.hero h1 {
+  color: #e00;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas feature */
+.feature {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+/* Mengatur gaya untuk gambar di dalam feature */
+.feature img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Mengatur gaya untuk elemen h2 di dalam feature */
+.feature h2 {
+  color: #e00;
+  margin: 10px 0;
+}
+
+/* Mengatur gaya untuk paragraf di dalam feature */
+.feature p {
+  color: #666;
+}
+
+/* Mengatur ulang gaya untuk elemen body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F9F2;
+}
+
+/* Mengatur gaya untuk elemen header */
+header {
+  background-color: #91DDCF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Mengatur gaya untuk elemen h1 di dalam header */
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Mengatur gaya untuk gambar di dalam header */
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 2px solid #fff;
+}
+
+/* Mengatur gaya untuk elemen main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Mengatur gaya untuk elemen dengan kelas form-section */
+.form-section {
+  background-color: #F7F9F2;
+  padding: 20px;
+  border: 1px solid #91DDCF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya untuk elemen h2 di dalam form-section */
+.form-section h2 {
+  color: #91DDCF;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Mengatur gaya untuk label */
+label {
+  display: block;
+  margin-bottom: 10px

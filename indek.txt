@@ -1,0 +1,20 @@
+Nama: dyi
+Alamat: rwr
+Jarak: 3 km
+Biaya: Rp 45000
+
+Nama: dyi
+Alamat: 32
+Jarak: 3 km
+Biaya: Rp 45000
+
+Nama: dyi
+Alamat: 32
+Jarak: 3 km
+Biaya: Rp 45000
+
+Nama: adfghj
+Alamat: ghjkkl
+Jarak: 12 km
+Biaya: Rp 180000
+
